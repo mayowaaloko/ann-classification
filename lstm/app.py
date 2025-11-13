@@ -35,3 +35,4 @@ if st.button("Predict next word"):
     max_sequence_len = model.input_shape[1] + 1
     next_word = predict_next_word(model, tokenizer, input_text, max_sequence_len)
     st.write(f'The next word is: {next_word}')
+    
